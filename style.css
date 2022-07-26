@@ -242,3 +242,17 @@ body {
     line-height: 24px;
 
 }
+
+
+@media screen and (max-width:576px){
+    .logo{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .header__wrap{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
